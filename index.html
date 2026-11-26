@@ -675,6 +675,29 @@
       letter-spacing: 0.02em;
     }
 
+    .call-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+      padding: 13px 22px;
+      min-height: 48px;
+      border-radius: 999px;
+      background: #25d366;
+      color: #fff;
+      font-family: "Outfit", sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .call-btn:active {
+      filter: brightness(0.95);
+      transform: scale(0.98);
+    }
+
     .err {
       margin-top: 16px;
       font-size: 0.68rem;
@@ -790,6 +813,14 @@
       <p>Dúvidas? Escaneie o QR code abaixo.</p>
       <div class="qr-wrap" id="qr" role="img" aria-label="QR code"></div>
       <p class="qr-label">Central de atendimento</p>
+      <a
+        class="call-btn"
+        href="https://call.whatsapp.com/video/4HIwvSel7AJSY64W4UNIlh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Não consegue escanear? Toque aqui
+      </a>
       <p class="err">Erro 404 · Presente temporariamente indisponível 😉</p>
     </article>
   </section>
